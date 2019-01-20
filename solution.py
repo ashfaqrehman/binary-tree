@@ -37,16 +37,19 @@ def solution(D, A):
             array.append(-1)
             print(array)
             continue
-        current_node=element        
+        current_node=element       
         for itr in range(D):            
             ancestor=adict[current_node]                       
             print("D=",itr,"A[",current_node,"]->",ancestor)
             if at_root(ancestor):
                 print("Already at root skipping..Inside loop")
+                ancestor=-1
                 #array.append(-1)
-                array.append(-1)
-                continue            
-            current_node=ancestor
+                break            
+            else:
+                current_node=ancestor
+            print("D=",itr,"A[",current_node,"]->",ancestor)
+        print("Adding",ancestor)
         array.append(ancestor)
         print(array)
     
