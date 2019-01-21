@@ -54,7 +54,7 @@ def solution(D, A):
 def main():
     #D = int(input("integer D"))
     D=2 # integer D
-    A=[-1, 0, 1, 2, 3] # array A of N integers
+    A=[-1, 0, 4, 2, 1] # array A of N integers
     for i in range(len(A)):
         print("A[",i,"]->",A[i])
 
