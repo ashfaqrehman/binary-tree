@@ -18,3 +18,5 @@ your function should return [−1, −1, 0, 1, −1].
 
 the first element of array A equals −1;
 array A represents a valid tree.
+
+![Reference www.chegg.com](https://media.cheggcdn.com/media%2F0e9%2F0e967511-3fed-4d42-a9a2-0d9231a91ea9%2FphpqnbQLj.png)
