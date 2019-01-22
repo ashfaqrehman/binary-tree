@@ -44,10 +44,10 @@ def solution(D, A):
                 print("D=",distance,"A[",current_node,"]->",ancestor)
                 break
             else:
+                print("D=",distance,"A[",current_node,"]->",ancestor)
                 distance += 1
                 ancestor=adict[current_node]
                 current_node=ancestor
-                print("D=",distance,"A[",current_node,"]->",ancestor)
         print("Adding",ancestor)
         array.append(ancestor)
         print(array)
