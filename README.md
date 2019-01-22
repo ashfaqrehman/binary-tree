@@ -6,6 +6,8 @@ function solution(D, A);
 
 that, given an integer D and array A of N integers, returns an array of N integers representing the ancestors at distance D of the consecutive nodes. If a node doesn't have an ancestor at distance D its field should contain −1.
 
+Usage: supply int D and list A in the main() function
+
 For example, given integer D = 2 and array A such that:
 
 A[0] = -1
@@ -18,5 +20,7 @@ your function should return [−1, −1, 0, 1, −1].
 
 the first element of array A equals −1;
 array A represents a valid tree.
+
+
 
 ![Reference www.chegg.com](https://media.cheggcdn.com/media%2F0e9%2F0e967511-3fed-4d42-a9a2-0d9231a91ea9%2FphpqnbQLj.png)

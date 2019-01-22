@@ -2,6 +2,9 @@
 '''
 function solution(D, A): Given an integer D and array A of N integers, 
    returns an array of N integers representing the ancestors at distance D of the consecutive nodes. If a node doesn't have an ancestor at distance D its field should contain −1
+
+Usage: supply int D and list A in the main() function
+
 For example, given integer D = 2 and array A such that:
 
 A[0] = -1
